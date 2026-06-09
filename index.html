@@ -1,77 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Your Name | Portfolio</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Valentine N. Githieya | Portfolio</title>
 
-  <style>
-    body {
-      margin: 0;
-      font-family: Arial, sans-serif;
-      background: #0f0f0f;
-      color: #ffffff;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
-      text-align: center;
-    }
-
-    .container {
-      max-width: 500px;
-      padding: 20px;
-    }
-
-    h1 {
-      font-size: 32px;
-      margin-bottom: 10px;
-    }
-
-    p {
-      color: #b5b5b5;
-      margin-bottom: 40px;
-    }
-
-    .btn {
-      display: block;
-      margin: 15px 0;
-      padding: 15px;
-      background: #ffffff;
-      color: #000;
-      text-decoration: none;
-      font-weight: bold;
-      border-radius: 10px;
-      transition: 0.2s;
-    }
-
-    .btn:hover {
-      background: #dcdcdc;
-    }
-
-    .small {
-      margin-top: 30px;
-      font-size: 12px;
-      color: #777;
-    }
-  </style>
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-  <div class="container">
-    <h1>Your Name</h1>
-    <p>Graphic Designer • UI/UX Designer</p>
 
-    <!-- Replace links below with your Google Drive or PDF links -->
-    <a class="btn" href="YOUR_GRAPHIC_PORTFOLIO_LINK" target="_blank">
-      View Graphic Design Portfolio
-    </a>
+  <!-- Theme Toggle -->
+  <button class="toggle" onclick="toggleTheme()">◐</button>
 
-    <a class="btn" href="YOUR_UIUX_PORTFOLIO_LINK" target="_blank">
-      View UI/UX Portfolio
-    </a>
+  <div class="wrap">
 
-    <p class="small">No login required • Works on mobile & desktop</p>
+    <!-- HERO -->
+    <header class="hero">
+      <h1>Valentine N. Githieya</h1>
+      <p class="subtitle">Graphic Designer · UI/UX Designer</p>
+      <p class="desc">
+        I design intentional visual systems and user experiences focused on clarity, structure and modern brand identity.
+      </p>
+    </header>
+
+    <!-- MAIN CARDS -->
+    <main class="cards">
+
+      <a class="card" href="VALENTINE N G GRAPHIC DESIGN PORTFOLIO.pdf" target="_blank">
+        <div class="card-title">Graphic Design Portfolio</div>
+        <div class="card-sub">Branding · Posters · Brand Identity Systems</div>
+      </a>
+
+      <a class="card" href="VALENTINE N G UI UX DESIGN PORTFOLIO.pdf" target="_blank">
+        <div class="card-title">UI/UX Portfolio</div>
+        <div class="card-sub">App Design · Web Design · UX Research</div>
+      </a>
+
+      <a class="card" href="CV VALENTINE GITHIEYA Graphic Design.pdf" target="_blank">
+        <div class="card-title">Graphic Design CV</div>
+        <div class="card-sub">Experience · Tools · Skills</div>
+      </a>
+
+      <a class="card" href="CV VALENTINE GITHIEYA PRODUCT DESIGN.pdf" target="_blank">
+        <div class="card-title">UI/UX CV</div>
+        <div class="card-sub">Product Design · UX Process · Tools</div>
+      </a>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <span>tyvalentine008@gmail.com . 0719565090</span>
+    </footer>
+
   </div>
+
+  <script src="script.js"></script>
 </body>
 </html>
